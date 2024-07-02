@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    
+    background-color: ; /* You might want to specify a background color */
     text-align: center;
     padding: 1rem 0;
 }
@@ -28,12 +28,16 @@ section {
 
 .profile-picture img {
     flex: 1;
+    max-width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
 }
+
+
+
 a {
     color: black;
 }
@@ -58,5 +62,7 @@ a:hover {
         overflow-wrap: break-word;
     }
 
-   
+    .profile-picture img {
+        max-width: 100px;
+    }
 }
