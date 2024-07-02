@@ -28,7 +28,7 @@ section{
 {
     max-width:275px;
     height: auto;
-    border-radius: 50%;
+    display: flex;
 
 }
 img {
