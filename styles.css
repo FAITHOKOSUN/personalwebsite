@@ -48,20 +48,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
-@media (max-width: 600px) {
-    body{
-        padding: 10px;
+@media (max-width: 768px) {
+    
+    .profile-container {
+      flex-direction: column;  
+      align-items: center;      
+      gap: 10px;               
     }
-    section {
-        margin: 10px 0;
-    }
-}
-.profile-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: flex-end; 
+    
+   
   }
-.profile-info{
-    margin-right: auto;
-}
