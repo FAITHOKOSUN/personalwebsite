@@ -24,15 +24,19 @@ section{
     max-width: 800px;
 }
 
-.profile-pics img
-{
-    max-width:275px;
-    height: auto;
-    display: flex;
-
-}
-img {
+.profile-picture img {
+    flex: 1;
     max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px; 
+    margin-bottom: 10px
+}
+
+img {
+    max-width: 50%;
     height: auto;
 }
 
@@ -51,12 +55,12 @@ a:hover {
         margin: 10px 0;
     }
 }
-.profile-container{
+.profile-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
-    }
-    .profile-info{
-        flex: 1;
-    }
+    justify-content: flex-end; 
+  }
+.profile-info{
+    margin-right: auto;
+}
